@@ -1,0 +1,12 @@
+{
+  "name": "task-reward-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "node server/app.js", "dev": "node --watch server/app.js" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  }
+}
